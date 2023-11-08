@@ -1,0 +1,36 @@
+.search {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.dropdown-divider {
+    background-color: red !important;
+    height: 10px;
+    width: 70px;
+    transition: 0.3s;
+}
+
+.item:hover .dropdown-divider {
+    width: 100% !important;
+}
+
+.item a:hover {
+    color: red !important;
+}
+
+.header {
+    position: sticky;
+    margin-top: -10px !important;
+    background: green;
+    padding: 10px 20px;
+}
+
+.second-nav .dropdown:hover {
+    background: green !important;
+    margin: 4px;
+}
+
+.second-nav .dropdown a:hover {
+    color: white;
+}
