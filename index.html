@@ -4,659 +4,338 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School-Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>School</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+
 </head>
 
 <body>
+    <nav class="navigation">
+        <a href="#" class="logo"><img src="https://cbudev2.wpengine.com/wp-content/uploads/2020/06/CBU-ShieldLogo_orange.png" width="130px" alt=""></a>
+        <button class="toggler"><i class="bi bi-list"></i></button>
 
-    <nav class="navbar navbar-expand-lg bg-body-light mt-1">
-        <div class="container-fluid">
-            <a href="navbar-brand" class="ms-5"><img src="https://cbudev2.wpengine.com/wp-content/uploads/2020/06/CBU-ShieldLogo_orange.png" width="130px" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="flex left">
-                <div class="collapse navbar-collapse  header" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    ADMISSIONS
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">Admission Requirements</a>
+        <div class="menu">
+            <div class="top-nav">
+                <ul>
+                    <li class="nav_li">
+                        <a href="#">RESEARCH</a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#">
+                            INDIGENOUS INITIATIVES</a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#">CBU SERVICEHUB</a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#">LIBRARY</a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="#">ATHLETICS</a>
+                    </li>
+                    <li>
+                        <div class="dropdown quick-menus">
+                            <button href="#" class="quick-btn">QUICK LINKS</button>
+                            <div class="menu-items">
+                                <ul>
+                                    <li>
+                                        <a href="# ">Alumni</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Communuity & Creative Arts</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Faculty & Staff</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Important Dates</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Newsroom</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_li ">
+                        <a href="# ">LOGIN <i class="bi bi-person-circle "></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-nav">
+                <ul>
+                    <li class="items-dropdown">
+                        <a href="# ">ADMISSIONS</a>
+                        <div class="items">
+                            <ul>
+                                <li class="item"><a class="dropdown-item" href="# ">Admission Requirements</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Before You Apply</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Canadian Application Deadlines</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">International Application Deadlines</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">How To Apply</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Start Your Application</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Accept Your Offer of Admission</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">What’s Next?</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="items-dropdown ">
+                        <a href="# ">ACADEMIC PROGRAMS</a>
+                        <div class="items ">
+                            <ul>
+                                <li class="item "><a class="dropdown-item " href="# ">All Programs</a>
 
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Before You Apply</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Arts, Social Sciences & Culture</a>
 
 
-                                    <hr class="dropdown-divider">
 
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Canadian Application Deadlines</a>
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">International Application Deadlines</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Business</a>
 
 
-                                    <hr class="dropdown-divider">
 
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">How To Apply</a>
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Start Your Application</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Community Economic Development</a>
 
 
-                                    <hr class="dropdown-divider">
 
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Accept Your Offer of Admission</a>
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">What’s Next?</a>
-                                    <hr class="dropdown-divider">
+                                <li class="item "><a class="dropdown-item " href="# ">Education</a>
 
+
+
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Engineering & Technology</a>
+
+
+
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Health & Well-Being</a>
+
+
+
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Nursing</a>
+
+
+
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Sciences</a>
 
                                 </li>
                             </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    ACADEMIC PROGRAMS
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">All Programs</a>
+                        </div>
+                    </li>
+                    <li class="items-dropdown ">
+                        <a href="# ">FUTURE STUDENTS</a>
+                        <div class="items ">
+                            <ul>
+                                <li class="item "><a class="dropdown-item " href="# ">Apply Now</a>
 
 
 
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Arts, Social Sciences & Culture</a>
-
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Business</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Check Your Application Status</a>
 
 
 
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Community Economic Development</a>
-
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Education</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Connect With a Recruiter</a>
 
 
 
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Engineering & Technology</a>
-
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Health & Well-Being</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Events Calendar</a>
 
 
 
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Nursing</a>
-
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Sciences</a>
+                                <li class="item "><a class="dropdown-item " href="# ">For Parents</a>
 
 
 
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Housing Accommodations</a>
+
+
+
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Important Dates</a>
+
+
+
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Scholarships & Bursaries</a>
+
+
+
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Student Services</a>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    FUTURE STUDENTS
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">Apply Now</a>
+                        </div>
+                    </li>
+                    <li class="items-dropdown ">
+                        <a href="# ">CURRENT STUDENTS</a>
+
+                        <div class="items ">
+                            <ul>
+                                <li class="item "><a class="dropdown-item " href="# ">Academic Calendar</a>
 
 
 
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Check Your Application Status</a>
-
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Connect With a Recruiter</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Career Services</a>
 
 
 
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Events Calendar</a>
-
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">For Parents</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Convocation</a>
 
 
 
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Housing Accommodations</a>
-
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Important Dates</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Events Calendar</a>
 
 
 
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Scholarships & Bursaries</a>
-
-
-
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider ">
 
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Student Services</a>
+                                <li class="item "><a class="dropdown-item " href="# ">Housing Accommodations</a>
 
 
 
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Important Dates</a>
+
+
+
+                                    <hr class="dropdown-divider ">
+
+
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Registrar’s Office</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Student Services</a>
+                                    <hr class="dropdown-divider ">
+                                </li>
+                                <li class="item "><a class="dropdown-item " href="# ">Tuition & Fees</a>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    CURRENT STUDENTS
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">Academic Calendar</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
+                        </div>
+                    </li>
+                    <li class="items-dropdown ">
+                        <a href="# ">GIVE</a>
+                        <div class="items ">
+                            <ul>
+                                <li class="item "><a class="dropdown-item " href="# ">Contact Us</a>
+                                    <hr class="dropdown-divider ">
 
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Career Services</a>
 
-
-
-                                    <hr class="dropdown-divider">
-
-
+                                <li class="item "><a class="dropdown-item " href="# ">Donate</a>
+                                    <hr class="dropdown-divider ">
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Convocation</a>
 
-
-
-                                    <hr class="dropdown-divider">
-
-
+                                <li class="item "><a class="dropdown-item " href="# ">Donors</a>
+                                    <hr class="dropdown-divider ">
                                 </li>
-                                <li class="item"><a class="dropdown-item" href="#">Events Calendar</a>
 
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Housing Accommodations</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Important Dates</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Registrar’s Office</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Student Services</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Tuition & Fees</a>
-
-
-
+                                <li class="item "><a class="dropdown-item " href="# ">Events Calendar</a>
+                                    <hr class="dropdown-divider ">
                                 </li>
                             </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            GIVE
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">Contact Us</a>
-                                    <hr class="dropdown-divider">
-
-                                </li>
-
-                                <li class="item"><a class="dropdown-item" href="#">Donate</a>
-                                    <hr class="dropdown-divider">
-                                </li>
-
-                                <li class="item"><a class="dropdown-item" href="#">Donors</a>
-                                    <hr class="dropdown-divider">
-                                </li>
-
-                                <li class="item"><a class="dropdown-item" href="#">Events Calendar</a>
-                                    <hr class="dropdown-divider">
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <button class="search">SEARCH <i class="bi bi-search"></i></button>
-                    </form>
-                </div>
-                <div class="collapse navbar-collapse mt-5 second-nav" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    ADMISSIONS
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">Admission Requirements</a>
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Before You Apply</a>
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Canadian Application Deadlines</a>
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">International Application Deadlines</a>
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">How To Apply</a>
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Start Your Application</a>
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Accept Your Offer of Admission</a>
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">What’s Next?</a>
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    ACADEMIC PROGRAMS
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">All Programs</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Arts, Social Sciences & Culture</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Business</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Community Economic Development</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Education</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Engineering & Technology</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Health & Well-Being</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Nursing</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Sciences</a>
-
-
-
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    FUTURE STUDENTS
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">Apply Now</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Check Your Application Status</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Connect With a Recruiter</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Events Calendar</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">For Parents</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Housing Accommodations</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Important Dates</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Scholarships & Bursaries</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Student Services</a>
-
-
-
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    CURRENT STUDENTS
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">Academic Calendar</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Career Services</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Convocation</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Events Calendar</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Housing Accommodations</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Important Dates</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Registrar’s Office</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Student Services</a>
-
-
-
-                                    <hr class="dropdown-divider">
-
-
-                                </li>
-                                <li class="item"><a class="dropdown-item" href="#">Tuition & Fees</a>
-
-
-
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            GIVE
-                </a>
-                            <ul class="dropdown-menu">
-                                <li class="item"><a class="dropdown-item" href="#">Contact Us</a>
-                                    <hr class="dropdown-divider">
-
-                                </li>
-
-                                <li class="item"><a class="dropdown-item" href="#">Donate</a>
-                                    <hr class="dropdown-divider">
-                                </li>
-
-                                <li class="item"><a class="dropdown-item" href="#">Donors</a>
-                                    <hr class="dropdown-divider">
-                                </li>
-
-                                <li class="item"><a class="dropdown-item" href="#">Events Calendar</a>
-                                    <hr class="dropdown-divider">
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <button class="search">SEARCH <i class="bi bi-search"></i></button>
-                    </form>
-                </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="# ">SEARCH <i class="bi bi-search search-icon"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -665,6 +344,618 @@
 
 
 
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner bg-lg-h-75">
+            <div class="carousel-item active img1">
+                <img src="https://www.cbu.ca/wp-content/uploads/2023/10/Convocation-Slider.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Congratulations</h5>
+                    <p>TO FALL 2023 GRADUATES</p>
+                </div>
+            </div>
+            <div class="carousel-item img1">
+                <img src="   https://www.cbu.ca/wp-content/uploads/2023/10/AUS-2023-Slider-LogoFade.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block bt1">
+                    <h5>2023 AUS <br>Soccer <br>Championships</h5>
+                    <p>AT CBU!</p>
+                </div>
+            </div>
+            <div class="carousel-item img1">
+                <img src="https://www.cbu.ca/wp-content/uploads/2023/08/MicrosoftTeams-image-2-1920x650.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Investing In <br>You!</h5>
+                    <p>VIEW COMPUS PLANS</p>
+                </div>
+            </div>
+            <div class="carousel-item img1">
+                <img src="https://www.cbu.ca/wp-content/uploads/2023/07/ForeverCBU-SLIDER.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Support The <br>Forever CBU <br>Compaign</h5>
+                    <p>GIVE TODAY</p>
+                </div>
+            </div>
+            <div class="carousel-item img1">
+                <img src="https://www.cbu.ca/wp-content/uploads/2023/03/DSCF8115-scaled-e1679943431952-1920x650.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Accepted to <br>CBU?</h5>
+                    <p>CONFIRM YOUR SEAT</p>
+                </div>
+            </div>
+            <div class="carousel-item img1">
+                <img src="https://www.cbu.ca/wp-content/uploads/2023/01/WOW-Slider-alt.jpg?ver=1693243284" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                    <h5>You're Invited <br>to CBU's Open <br>House!</h5>
+                    <p>PRE - REGISTER TODAY</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tr1 mt-5 mb-5">
+        <div>
+            <h1>This is community. This is <br>Cape Breton University.</h1>
+            <br>
+            <h5>A diverse campus and welcoming environment are waiting for you at Cape Breton <br>University. Here, you’ll get more than just a world-class education. You’ll build life-long <br>friendships, gain global perspectives and experience the vibrant
+                culture of Cape Breton <br>Island.</h5>
+
+
+
+            <h5>Live and study alongside students just like you from over 70 countries around the world <br>while receiving the support you need to succeed.</h5>
+        </div>
+        <div>
+            <a href="https://www.cbu.ca/future-students/connect-with-a-recruiter/" target=_blank><img src="https://www.cbu.ca/wp-content/uploads/2022/08/CBU2-42-scaled-e1666622718506-450x300.jpg" alt=""></a>
+        </div>
+    </div>
+
+
+
+    <div class="gd">
+        <div>
+            <img src="https://www.cbu.ca/wp-content/uploads/2020/03/CBU-Letters-GreatHall-Students_3-800x533.jpg" height="390vh" width="200%">
+        </div>
+        <div class="gd3">
+
+        </div>
+        <div class="gd4">
+            <div class="gd5">
+                <h2>START YOUR CBU JOURNEY</h2>
+                <h5>Let us walk you through the entire application process, step-by-step from start to finish.</h5>
+                <p>Begin on the <a href="">Before You Apply</a> page for information to consider before you <br>submit your admission application. Next, learn <a href="">How To Apply</a> and how to <br> <a href="">Accept Your Offer</a> once you’ve been accepted
+                    to CBU.</p>
+                <p>Finally, we’ve mapped out the helpful <a href="">What’s Next</a> steps new students <br>should take to set up their accounts, get registered for classes and more.</p>
+                <a href="btl"><button> LEARN  MORE </button></a>
+            </div>
+        </div>
+    </div>
+    <h1 class="md">Latest CBU Stories</h1>
+    <div class="d-flex justify-content-between ">
+        <button class="g-btn" id="back-btn-top"><i class="bi bi-chevron-left"></i></button>
+        <button class="g-btn" id="forward-btn-top"><i class="bi bi-chevron-right"></i></button>
+    </div>
+    <div class="owl-carousel">
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>TRANSFORMING CHALLENGES INTO STRENGTHS: MEET PAIGE COX</h4>
+            <div>
+                <h5>September 28, 2023</h5>
+            </div>
+            <div>
+                <h6>When we first shared Paige Cox's in 2021, she has just graduated with a bachelor of Arts in the</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CBU INVITES NOMINATIONS FOR THE MARGARET DECHMAN COMMUNITY-ENGAGED RESEARCH CHAMPION</h4>
+            <div>
+                <h5>October 27, 2023</h5>
+            </div>
+            <div>
+                <h6>Cape Breton University is seeking nominations for the Margaret Dechman Community Engaged Research Champion Award. This award seeks to honour a...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>A LOVE LETTER TO TYPING WITH DR. DANA MOUNT</h4>
+            <div>
+                <h5>september 25, 2023</h5>
+            </div>
+            <div>
+                <h6>Each September, Downtown Sydney comes to life with the Lumiere Arts Festival, a free, accessible, contemporary arts festival featuring public...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>DR. STEPHANIE MACQUARRIE TO SERVE TERM AS ATLANTIC CHAIR FOR INCLUSION IN SCIENCE AND ENGINEERING</h4>
+            <div>
+                <h5>September 20, 2023</h5>
+            </div>
+            <div>
+                <h6>Dr. Stephanie MacQuarrie will build on her commitment as a champion for equity, diversity and inclusion in science, technology, engineering...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CBU CAPERS WOMEN'S BASKETBALL WELCOMES NEW MEMBER TO COACHING STAFF: MEET JAMEN JEWELLS</h4>
+            <div>
+                <h5>September 19, 2023</h5>
+            </div>
+            <div>
+                <h6>In August 2023, the Cape Breton University Capers women's basketball team was thrilled to welcome Jamey Jewells as the newest.</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>SUPPORTING STUDENT SUCCESS: MEET ALYSSA CAMPBELL</h4>
+            <div>
+                <h5>September 7, 2023</h5>
+            </div>
+            <div>
+                <h6>With Week of Welcome in full swing, the Cape Breton University campus</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>AUS ROOKIE, LEAH DISIPIO, READY TO TAKE ON STFX THIS SUNDAY FOR GOLD</h4>
+            <div>
+                <h5>October 28, 2023</h5>
+            </div>
+            <div>
+                <h6>The Capers Men's and Women's soccer teams will both battle for another AUS title at Sunday's Championship games of the...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>BRIDGING BORDERS AND COMMUNITIES: MEET LESLIE FU</h4>
+            <div>
+                <h5>October 27, 2023</h5>
+            </div>
+            <div>
+                <h6>Leslie Fu's journey from China to Cape Breton University has been a transformative one, thanks to the Master of Business...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>JASON HARTILL: ROOKIE ON THE RISE FOR AUS CHAMPIONSHIP</h4>
+            <div>
+                <h5>October 25, 2023</h5>
+            </div>
+            <div>
+                <h6>Originally from Carleton Place Ontario, Capers Men's Soccer rookie, Jason Hartill, is ready to make his mark on the Island...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="md2">
+        <a href=""><button>VISIT NEWSROOM</button></a>
+    </div>
+    <div class="bg8">
+        <div class="klm">
+            <h1>GET A WORLD-CLASS <br> EDUCATION</h1>
+            <h3>ON CANADA’S MOST BEAUTIFUL ISLAND.</h3>
+            <a href=""><button>APPLY NOW</button></a>
+        </div>
+        <img src="bg.png" width="300px" style="margin-top: 10px;" alt="">
+    </div>
+    <h1 class="owl">Latest Press Releases</h1>
+    <div class="d-flex justify-content-between ">
+        <button class="c-btn" id="back-btn"><i class="bi bi-chevron-left"></i></button>
+        <button class="c-btn" id="forward-btn"><i class="bi bi-chevron-right"></i></button>
+    </div>
+    <div class="owl-carousel">
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CBU BOG RATIFIES AGREEMENT WITH CUPE LOCAL 3131</h4>
+            <div>
+                <h5>October 27, 2023</h5>
+            </div>
+            <div>
+                <h6>Members of the Cape Breton University Board of Governors agreed unanimously at the October 20, Board Meeting to ratify an...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CBU STRIKER ALLY ROWE BREAKS MULTIPLE AUS RECORDS</h4>
+            <div>
+                <h5>October 18, 2023</h5>
+            </div>
+            <div>
+                <h6>It was an unforgettable, record-shattering performance for Ally Rowe on Sunday afternoon in Atlantic University Sport (AUS) women's soccer action...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CAPE BRETON UNIVERSITY MANAGES GROWTH WITH SOLUTIONS AND PREPARES FOR LARGEST GRADUATING CLASS IN CBU HISTORY</h4>
+            <div>
+                <h5>October 13, 2023</h5>
+            </div>
+            <div>
+                <h6>Cape Breton Island's welcoming community, paired with Cape Breton University's (CBU) world-class faculty and high-demand, quality programs, have shown...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CAPE BRETON UNIVERSITY TO BUILD NEW ON-CAMPUS RESIDENCE</h4>
+            <div>
+                <h5>September 21, 2023</h5>
+            </div>
+            <div>
+                <h6>Cape Breton University will build a new on-campus residence. CBU has elected Joneljim Construction as the development partner of a...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CAPE BRETON UNIVERSITY'S BOARDMORE THEATRE ANNOUNCES AUDITIONS FOR 52ND SEASON OF PLAYS</h4>
+            <div>
+                <h5>September 13, 2023</h5>
+            </div>
+            <div>
+                <h6>CAPE BRETON, NS - Cape Breton University's Boardmore Theatre invites students, employees. alumni and community members to audition for the...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CAPE BRETON UNIVERSITY CAPERS TO RETIRE JERSEY OF SOCCER SENSATION CIERA DISIPIO</h4>
+            <div>
+                <h5>September 6, 2023</h5>
+            </div>
+            <div>
+                <h6>This Saturday, the Cape Breton University Capers will retire the #8 jersey worn by soccer legend, Ciera Disipio, celebrating her...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CAPE BRETON UNIVERSITY RESEARCHERS AWARDED FEDERAL FUNDING</h4>
+            <div>
+                <h5>September 5, 2023</h5>
+            </div>
+            <div>
+                <h6>Cape Breton University researchers were among those recognized by the Government of Canada in a recent funding announcement covering a....</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CBU INCREASES BEDS ON-CAMPUS BY 26% WITH MACDONALD RESIDENCE RENOVATION</h4>
+            <div>
+                <h5>August 25, 2023</h5>
+            </div>
+            <div>
+                <h6>Cape Breton University is on track to complete renovations to their on-campus MacDonald Residence for early September. These renovations allow...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="color">
+            </div>
+            <h4>CAPE BRETON UNIVERSITY AND UNAMA'KI COLLEGE PROUDLY SPONSOR NORTH AMERICAN INDIGENOUS GAMES</h4>
+            <div>
+                <h5>July 14, 2023</h5>
+            </div>
+            <div>
+                <h6>From July 15-23, Cape Breton University will proudly sponsor the North American Indigenous Games. As the only post-secondary sponsor of...</h6>
+            </div>
+            <div>
+                <a href=""><button>READ MORE</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="md2">
+        <a href=""><button>VIEW ALL PRESS RELEASES</button></a>
+    </div>
+
+
+
+    <div class="line2">
+        <div class="list">
+            <h1>Events</h1>
+            <div class="color3">
+            </div>
+            <div>
+                <h2>2023 CREATIVE CAMPUS FILM FESTIVAL- DAY FOUR</h2>
+                <p>Nov 2, 2023 10:00 am - 4:00 pm</p>
+                <a href=""><button>VIEW EVENT</button></a>
+            </div>
+            <div class="color3">
+            </div>
+            <div>
+                <h2>INFORMATION SESSION WITH CBU’S POST-BACCALAUREATE DIPLOMAS TEAM</h2>
+                <p>Nov 3, 2023 10:30 am - 11:30 am</p>
+                <a href=""><button>VIEW EVENT</button></a>
+            </div>
+            <div class="color3">
+            </div>
+            <div>
+                <h2>2023 CREATIVE CAMPUS FILM FESTIVAL- DAY FIVE</h2>
+                <p>Nov 3, 2023 10:00 am - 4:00 pm</p>
+                <a href=""><button>VIEW EVENT</button></a>
+            </div>
+            <div class="color3">
+            </div>
+            <div>
+                <h2>2023 USPORTS MEN’S SOCCER CHAMPIONSHIP</h2>
+                <p>Nov 9, 2023 9:00 am - Nov 12, 2023 9:00 pm</p>
+                <a href=""><button>VIEW EVENT</button></a>
+            </div>
+            <div class="color3">
+            </div>
+            <div>
+                <h2>INSURANCE 101 & NANCY DINGWALL HEALTH AND COUNSELLING CENTRE</h2>
+                <p>Nov 10, 2023 10:30 am - 11:30 am</p>
+                <a href=""><button>VIEW EVENT</button></a>
+            </div>
+            <div class="color3">
+            </div>
+            <div>
+                <h2>BACHELOR OF SOCIAL WORK INFORMATION SESSION</h2>
+                <p>Nov 15, 2023 4:30 pm - 5:30 pm</p>
+                <a href=""><button>VIEW EVENT</button></a>
+            </div>
+            <div class="mmt">
+                <a href=""><button>SEE ALL EVENTS</button></a>
+            </div>
+        </div>
+
+
+        <div class="box1">
+            <h2>Important Dates</h2>
+            <div class="nb">
+                <div class="container">
+                    <h3>NOVEMBER</h3>
+                    <h1>03</h1>
+                </div>
+                <div class="box2">
+                    <h4>Final Date To Withdraw From A Fall Term 3 Credit Course Without Academic Penalty (Financial Penalty Applies)</h4>
+                </div>
+            </div>
+            <div class="nb">
+                <div class="container">
+                    <h3>NOVEMBER</h3>
+                    <h1>13</h1>
+                </div>
+                <div class="box2">
+                    <h4>CBU Closed In Observance Of Remembrance Day</h4>
+                </div>
+            </div>
+            <div class="nb">
+                <div class="container">
+                    <h3>NOVEMBER</h3>
+                    <h1>13</h1>
+                </div>
+                <div class="box2">
+                    <h4>Fall Reading Week (November 13-17)- No Classes</h4>
+                </div>
+            </div>
+            <div class="nb">
+                <div class="container">
+                    <h3>NOVEMBER</h3>
+                    <h1>20</h1>
+                </div>
+                <div class="box2">
+                    <h4>Application To Graduate For 2024 Spring Convocation Open</h4>
+                </div>
+            </div>
+            <div class="nb">
+                <div class="container">
+                    <h3>NOVEMBER</h3>
+                    <h1>05</h1>
+                </div>
+                <div class="box2">
+                    <h4 class="l-title">Last Day Of Classes- Fall Term</h4>
+                </div>
+            </div>
+
+            <div class="klx">
+                <a href=""><button>SEE ALL IMPORTANT DATES</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg9">
+        <div class="klm2">
+            <h1>WE’RE NATIONAL <br> LEADERS</h1>
+            <h3 class="fw-bolder">IN SERVICE-LEARNING <br> EXPERIENCES</h3>
+            <a href=""><button>APPLY NOW</button></a>
+        </div>
+        <img src="imag02-removebg-preview.png" width="300px" style="padding-top: 40px; " alt="">
+    </div>
+
+    <div class="bg33">
+        <div class="container2">
+            <div class="row">
+                <div class="col-lg-5  mt-">
+                    <div class="link">
+                        <div>
+                            <h1>Keep in touch</h1>
+                            <p>We love engaging with the Cape Breton University <br>community on social media. Follow us at the links <br>below for important announcements, events and more.</p>
+                        </div>
+                        <div class="link1">
+                            <div>
+                                <button class="icon"> <a href=""><i class="bi bi-facebook"></i></a></button>
+                            </div>
+                            <div>
+                                <button class="icon"><a href=""><i class="bi bi-twitter"></i></a></button>
+                            </div>
+                            <div>
+                                <button class="icon"><a href=""><i class="bi bi-instagram"></i></a></button>
+                            </div>
+                            <div>
+                                <button class="icon"><a href=""><i class="bi bi-linkedin"></i></a></button>
+                            </div>
+                            <div>
+                                <button class="icon"><a href=""><i class="bi bi-youtube"></i></a></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-7 mt-3">
+                    <div class="col">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <a href="" class="text-success fw-bold fs-4">@cbuniversity</a>
+                            </div>
+                            <div class="gtb">
+                                <a href=""><button>SEE ALL</button></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mt-3 pt-3">
+                                <a href=""><img src="https://www.lubbockonline.com/gcdn/authoring/2015/03/14/NLAJ/ghows-TX-19db8286-d87d-42e2-9859-7a3c08309473-03f861f5.jpeg?width=660&height=980&fit=crop&format=pjpg&auto=webp" width="100%" height="100%" alt=""></a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mt-3 pt-3">
+                                <img src="https://www.gainesville.com/gcdn/authoring/2006/12/21/NTGS/ghows-LK-eae7764d-ebda-46b3-be6f-d223eab9fd94-af66029a.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp" width="100%" height="100%" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mt-3 pt-3">
+                                <img src="https://images.kingsbaptist.sa.edu.au/eyJidWNrZXQiOiJraW5nc2JhcHRpc3QtczMtaW1hZ2VzIiwia2V5IjoiaW1hZ2VzL0Jhc2tldGJhbGwuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxNDcyLCJoZWlnaHQiOjE5MTMuNjAwMDAwMDAwMDAwMSwicG9zaXRpb24iOiJjZW50ZXIiLCJmaXQiOiJjb3ZlciJ9LCJ3aXRoTWV0YWRhdGEiOnRydWUsInRvRm9ybWF0IjoianBlZyIsImpwZWciOnsicXVhbGl0eSI6ODAsInByb2dyZXNzaXZlIjp0cnVlLCJvcHRpbWlzZUNvZGluZyI6dHJ1ZSwidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlfX19"
+                                    width="100%" height="100%" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mt-3 pt-0 pb-2">
+                                <img src="https://ca-times.brightspotcdn.com/dims4/default/53bb5cf/2147483647/strip/true/crop/396x512+0+0/resize/1200x1552!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc3%2Fa1%2Fd10e92acd914e9e4562c89db02d6%2Fsdut-new-orleans-hornets-forward-dav-20160901-017"
+                                    width="100%" height="100%" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mt-3 pt-0 pb-2">
+                                <img src="https://ca-times.brightspotcdn.com/dims4/default/28aefc1/2147483647/strip/true/crop/388x512+0+0/resize/1200x1584!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe6%2F15%2Fd6c23a79c59d535f64a973ee20e4%2Fsdut-new-orleans-hornets-chris-paul-20160829"
+                                    width="100%" height="100%" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mt-3 pt-0 pb-2">
+                                <img src="https://www.basketballvictoria.com.au/cdn/2ixkqftmuy048kk4" width="100%" height="100%" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="text5">
+        <div class="footer-bottom">
+            <h3 class="container6">Unama’ki espi-kina’matno’kuom etek Mi’kma’ki, wla na no’kamanaq aq maqamikewminu mena’qiknmuetuk. Cape Breton University is located in Mi’kma’ki, the ancestral and unceded territory of the Mi’kmaw People.</h3>
+        </div>
+    </div>
+    <div class="colors">
+        <div class="red1">
+        </div>
+        <div class="white1">
+        </div>
+        <div class="yellow1">
+        </div>
+        <div class="black1">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-inset">
+            <div class="columns">
+                <div class="column">
+                    <ul>
+                        <li><a href="">ADMISSIONS</a></li>
+                        <li><a href="">ACADEMIC PROGRAMS</a></li>
+                        <li><a href="">FUTURE STUDENTS</a></li>
+                        <li><a href="">CURRENT STUDENTS</a></li>
+                        <li><a href="">GIVE</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li><a href="">RESEARCH</a></li>
+                        <li><a href="">INDIGENOUS INITIATIVES</a></li>
+                        <li><a href="">CBU SERVICEHUB</a></li>
+                        <li><a href="">LIBRARY</a></li>
+                        <li><a href="">ATHLETICS</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li><a href="">ABOUT CBU</a></li>
+                        <li><a href="">CAREER OPPORTUNITIES</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                        <li><a href="">EMPLOYEE DIRECTORY</a></li>
+                        <li><a href="">NEWSROOM</a></li>
+                        <li><a href="">LEGAL</a></li>
+                        <li><a href="">PRIVACY POLICY</a></li>
+                        <li><a href="">SUSTAINABILITY</a></li>
+                    </ul>
+                </div>
+                <div class="footer-logo">
+                    <a href=""><img src="image001.png" width="200px" height="100%" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <footer class="footer2">&copy;2023 Cape Breton University</footer>
 
 
 
@@ -672,7 +963,12 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="owlcarousel/owl.carousel.js"></script>
+    <script src="main.js"></script>
+
+
 </body>
 
 </html>

@@ -898,6 +898,9 @@
             .tr1 {
                 flex-wrap: wrap;
             }
+            .l-title {
+                margin-left: -300px;
+            }
         }
         
         @media only screen and (max-width:1055px) {
@@ -906,6 +909,12 @@
             }
             .box1 .nb {
                 width: 100% !important;
+            }
+        }
+        
+        @media only screen and (max-width: 485px) {
+            .l-title {
+                margin: 0px !important;
             }
         }
         /* -------X---------Responsiveness-----------X------- */
