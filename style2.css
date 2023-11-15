@@ -212,6 +212,9 @@
             justify-content: space-between;
             /* margin: 50px 100px !important; */
             /* height: 200%; */
+            max-width: 1200px;
+            margin: auto;
+            padding: 0px 20px;
         }
         
         .tr1 a {
@@ -800,13 +803,6 @@
         }
         
         .footer2 {
-            width: 100%;
-            height: 30px;
-            margin: 30px;
-            display: grid;
-            place-items: center;
-            margin-left: -400px;
-            font-weight: 700;
             color: #4bd352c7;
         }
         
@@ -909,6 +905,58 @@
             }
             .box1 .nb {
                 width: 100% !important;
+            }
+        }
+        
+        @media only screen and (max-width: 492px) {
+            .gd4 {
+                margin-top: -440px !important;
+                max-width: 450px;
+                margin-left: 50px !important;
+                height: 450px !important;
+            }
+            .gd5 {
+                max-width: 400px !important;
+                margin: auto;
+                margin-left: 30px !important;
+            }
+            .tr1 a {
+                padding: 20px 0px !important;
+            }
+            .tr1 a img {
+                max-width: 400px !important;
+                margin: auto;
+            }
+            .bg33 .container2 {
+                padding: 40px 30px;
+            }
+        }
+        
+        @media only screen and (max-width: 472px) {
+            .gd4 {
+                margin-top: -440px !important;
+                max-width: 430px;
+                margin-left: 50px !important;
+                height: 450px !important;
+            }
+            .gd5 {
+                max-width: 380px !important;
+                margin: auto;
+                margin-left: 30px !important;
+            }
+        }
+        
+        @media only screen and (max-width: 454px) {
+            .gd4 {
+                margin-top: -440px !important;
+                max-width: 400px;
+                margin-left: 50px !important;
+                height: 450px !important;
+            }
+            .gd5 {
+                max-width: 350px !important;
+                margin: auto;
+                margin-left: 30px !important;
             }
         }
         
